@@ -4,22 +4,25 @@ html,body {
 }
 
 .container {
-	display:table-cell;
-	vertical-align:middle;
+	display:inline;
 	max-width: 450px;
 	margin: 0 auto;
 	padding: 0 10px;
 }
 
 .engine {
-	display:table;
+	max-width:940px;
 	background-color:white;
 	margin: 0 auto 100px;
 }
 
+.options {
+	margin: 0 auto;
+	max-width: 400px;
+}
+
 #DuckLogo{
 	display:block;
-	align:middle;
 	margin:80px auto 0;
 	width:400px;
 }
