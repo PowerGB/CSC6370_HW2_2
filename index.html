@@ -4,18 +4,24 @@
 	<title>DuckDuckGo</title>
 </head>
 <body>
-	<!--Search Engine-->
-	<!--<div class="engine">
+<!--Search Engine-->
+	<div class="engine">
 		<div class="container">
-			
+			<img id="DuckLogo" src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.inside.com.tw%2Fwp-content%2Fuploads%2F2013%2F06%2Fduckduckgo_logo.001.png&f=1"/>
+			<div class="options">
+				<form action="https://duckduckgo.com/" method="GET">
+					<input id="txtF" type="text" name="q" placeholder="please input your search" title="input"/>
+					<input id="smt" type="submit" value="Search" formtarget="_blank"/>
+					<input class="opt" type="radio" name="ia" placeholder="web" title="web" value="web">Web</input>
+					<input class="opt" type="radio" name="ia" placeholder="images" title="images" value="images">Images</input>
+					<input class="opt" type="radio" name="ia" placeholder="videos" title="videos" value="videos">Videos</input>
+					<input class="opt" type="radio" name="ia" placeholder="about" title="about" value="about">About</input>
+					<input class="opt" type="radio" name="ia" placeholder="meanings" title="meanings" value="meanings">Meanings</input>
+					
+				</form>
+			</div>
 		</div>
-	</div>-->
+	</div>
 	
-<form action="https://duckduckgo.com/" method=method>
-	<input type="text" name="q" placeholder="please input your search" title="input"></input>
-	<input type="radio" name="method" value="GET" checked> GET</input>
-	<input type="radio" name="method" value="POST"> POST</input>
-	<input type="submit" value="SMT"/>
-</form>
 </body>
-</html>
+	</html>
