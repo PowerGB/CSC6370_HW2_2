@@ -1,0 +1,56 @@
+html,body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display:table-cell;
+	vertical-align:middle;
+	max-width: 450px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.engine {
+	display:table;
+	background-color:white;
+	margin: 0 auto 100px;
+}
+
+#DuckLogo{
+	display:block;
+	align:middle;
+	margin:80px auto 0;
+	width:400px;
+}
+
+form{
+	font-family:Arial;
+}
+
+input {
+	display:inline-block;
+	margin:0;
+	padding:0;
+}
+
+#txtF {
+	margin:0;
+	padding:0;
+	height:25px;
+	width:88%;	
+}
+
+#smt {
+	border:0;
+	margin: 0 0 0 -3px;
+	padding:0;
+	height:29px;
+	width:10%;
+	color:white;
+	background-color:forestgreen;
+}
+
+.opt {
+	margin: 10px;
+}
