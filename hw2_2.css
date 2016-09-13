@@ -13,7 +13,7 @@ html,body {
 .engine {
 	max-width:940px;
 	background-color:white;
-	margin: 0 auto 100px;
+	margin: 100px auto;
 }
 
 .options {
@@ -23,7 +23,7 @@ html,body {
 
 #DuckLogo{
 	display:block;
-	margin:80px auto 0;
+	margin:0 auto;
 	width:400px;
 }
 
